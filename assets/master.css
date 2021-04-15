@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+h1 {
+  color: yellow;
+}
+
+h2 {
+  color: yellow;
+}
+
+button {
+  color: yellow;
+  background-color: black;
+  border: 2px solid white;
+}
+
+p {
+  color: yellow;
+}

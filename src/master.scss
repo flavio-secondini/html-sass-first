@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: black;
+}
+
+$primary: yellow;
+
+
+h1 {
+  color: $primary;
+}
+
+h2 {
+  color: $primary;
+}
+
+button {
+  color: $primary;
+
+  background-color: black;
+
+  border: 2px solid white;
+}
+
+p {
+  color: $primary;
+}
